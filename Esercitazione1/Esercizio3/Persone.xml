@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+    <persona anni = "24">
+        <nome>John</nome>
+        <cognome>Doe</cognome>
+    </persona>
+    <persona anni = "25">
+        <nome>Mary</nome>
+        <cognome>Jane</cognome>
+    </persona>
+    <persona anni = "26">
+        <nome>John</nome>
+        <cognome>Smith</cognome>
+    </persona>
+    <persona anni = "30">
+        <nome>Beth</nome>
+        <cognome>Allen</cognome>
+    </persona>
+</persona>

@@ -1,0 +1,24 @@
+{
+    "persone": [
+        {
+            "nome": "John",
+            "cognome": "Doe",
+            "età": "24"
+        },
+        {
+            "nome": "Mary",
+            "cognome": "Jane",
+            "età": "25"
+        },
+        {
+            "nome": "John",
+            "cognome": "Smith",
+            "età": "26"
+        },
+        {
+            "nome": "Beth",
+            "cognome": "Allen",
+            "età": "30"
+        }
+    ]
+}
