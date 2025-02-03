@@ -1,0 +1,10 @@
+Nel primo caso: 
+
+java HelloWorld
+
+Nel secondo caso: 
+(al posto di .\target mettete la directory che volete. L'importante è che il file .class sia al suo interno)
+
+java -cp .\target HelloWorld
+
+Non ho inserito il file .class perchè potrebbe essere considerato un virus

@@ -1,0 +1,11 @@
+Per compilare le classi:
+
+javac *.java
+
+Per creare il file jar:
+
+jar -cmf MANIFEST.MF HelloWorld.jar *.class
+
+Per avviare il file jar:
+
+java -jar HelloWorld.jar

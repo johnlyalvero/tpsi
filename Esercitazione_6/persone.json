@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "codiceFiscale": "RSSMRA80A01H501Z",
+        "eta": 30
+    },
+    {
+        "nome": "Luigi",
+        "cognome": "Bianchi",
+        "codiceFiscale": "BNCLGU80A01H501Y",
+        "eta": 25
+    },
+    {
+        "nome": "Anna",
+        "cognome": "Verdi",
+        "codiceFiscale": "VRDANN80A01H501X",
+        "eta": 28
+    },
+    {
+        "nome": "Giulia",
+        "cognome": "Neri",
+        "codiceFiscale": "NRIGLU80A01H501W",
+        "eta": 32
+    }
+]

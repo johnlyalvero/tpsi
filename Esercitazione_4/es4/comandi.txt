@@ -1,0 +1,7 @@
+Per compilare:
+
+javac com/example/HelloWorld.java
+
+Per eseguire:
+
+java com.example.HelloWorld

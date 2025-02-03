@@ -1,0 +1,5 @@
+javac HelloWorld.java -d .\target
+
+In alternativa
+
+javac *.java -d .\target

@@ -1,0 +1,26 @@
+<persone>
+    <persona>
+        <nome>Mario</nome>
+        <cognome>Rossi</cognome>
+        <codiceFiscale>RSSMRA80A01H501Z</codiceFiscale>
+        <eta>30</eta>
+    </persona>
+    <persona>
+        <nome>Luigi</nome>
+        <cognome>Bianchi</cognome>
+        <codiceFiscale>BNCLGU80A01H501Y</codiceFiscale>
+        <eta>25</eta>
+    </persona>
+    <persona>
+        <nome>Anna</nome>
+        <cognome>Verdi</cognome>
+        <codiceFiscale>VRDANN80A01H501X</codiceFiscale>
+        <eta>28</eta>
+    </persona>
+    <persona>
+        <nome>Giulia</nome>
+        <cognome>Neri</cognome>
+        <codiceFiscale>NRIGLU80A01H501W</codiceFiscale>
+        <eta>32</eta>
+    </persona>
+</persone>

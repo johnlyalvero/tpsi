@@ -1,0 +1,5 @@
+javac HelloWorld.java
+
+In alternativa
+
+javac *.java

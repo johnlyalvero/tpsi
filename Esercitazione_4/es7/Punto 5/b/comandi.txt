@@ -1,0 +1,7 @@
+Per compilare la classe
+
+mvn compile
+
+Per avviare la classe
+
+mvn exec:java -Dexec.mainClass="com.example.HelloWorld"

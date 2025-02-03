@@ -1,0 +1,21 @@
+Scaricare il file https://dlcdn.apache.org//commons/lang/binaries/commons-lang3-3.14.0-bin.zip
+Estrarre l'archivio ZIP e copiare nella directory di lavoro il file commons-lang3-3.14.0.jar
+per capire come utilizzare la classe StrigUtils aprire la directory apidocs e aprire il file index.html 
+
+per compilare la classe HelloWorld:
+
+javac -cp .;commons-lang3-3.14.0.jar *.java
+
+Per avviare la classe HelloWorld:
+
+java -cp .;commons-lang3-3.14.0.jar HelloWorld
+
+Per creare il jar:
+
+jar -cmf MANIFEST.MF HelloWorld.jar HelloWorld.class
+
+Per avviare il jar (il file commons-lang3-3.14.0.jar deve essere presente nella stessa directory):
+
+java -jar HelloWorld.jar
+
+
