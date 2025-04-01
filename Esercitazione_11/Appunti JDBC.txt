@@ -1,0 +1,22 @@
+﻿ip a, ifconfig -> Per conoscere IP della Macchina 
+WinSCP o Filezilla -> Per connettersi alla macchina server utilizzando FTP
+Putty -> Per aprire una sessione SSH
+
+
+All'interno della sessione SSH
+mysql -u root -p -> Aprire una sessione con il DBMS (R11Tmysql!)
+
+
+All'interno del prompt del DBMS
+create database miodb; -> Per Creare un Database
+use miodb; -> Per selezionare il DB creato
+create table tabella(id integer, descrizione char(4));-> Per Creare una tabella
+insert into tabella values (1,'a'),(2,'b');-> Per popolare la tabella
+quit -> Per uscire dal prompt del DBMS
+
+Mettere la macchina virtuale in rete in bridge
+digitare ip a per prendere l'indirizzo ip
+
+Da Putty o da terminale della vm
+javac -cp ./mysql-connector-j-8.0.32.jar *.java -> Per Compilare
+java -cp ./mysql-connector-j-8.0.32.jar:. JdbcExample 
