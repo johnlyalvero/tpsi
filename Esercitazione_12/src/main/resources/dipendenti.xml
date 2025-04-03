@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dipendenti>
+  <dipendente>
+    <nome>Mario</nome>
+    <cognome>Rossi</cognome>
+    <id>30</id>
+    <eta>1</eta>
+    <stipendio>1500.0</stipendio>
+  </dipendente>
+  <dipendente>
+    <nome>Luca</nome>
+    <cognome>Bianchi</cognome>
+    <id>40</id>
+    <eta>2</eta>
+    <stipendio>2000.0</stipendio>
+  </dipendente>
+</dipendenti>
