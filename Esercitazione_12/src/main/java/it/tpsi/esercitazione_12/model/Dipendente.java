@@ -6,20 +6,22 @@ package it.tpsi.esercitazione_12.model;
 
 /**
  *
+ * Classe che rappresenta un'entità Dipendente con ID, nome, cognome, eta e stipendio
+ * 
  * @author Johnly
  */
 public class Dipendente {
+    private int id;
     private String nome;
     private String cognome;
     private int eta;
-    private int id;
     private double stipendio;
 
-    public Dipendente(String nome, String cognome, int eta, int id, double stipendio) {
+    public Dipendente(int id, String nome, String cognome, int eta, double stipendio) {
+        this.id = id;
         this.nome = nome;
         this.cognome = cognome;
         this.eta = eta;
-        this.id = id;
         this.stipendio = stipendio;
     }
 
@@ -65,7 +67,7 @@ public class Dipendente {
 
     @Override
     public String toString() {
-        return "Dipendente{" + "nome=" + nome + ", cognome=" + cognome + ", eta=" + eta + ", id=" + id + ", stipendio=" + stipendio + '}';
+        return "Dipendente{" + "id=" + id + "nome=" + nome + ", cognome=" + cognome + " eta=" + eta +  ", stipendio=" + stipendio + '}';
     }
     
     

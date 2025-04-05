@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dipendenti>
   <dipendente>
-    <nome>Mario</nome>
-    <cognome>Rossi</cognome>
-    <id>30</id>
-    <eta>1</eta>
+    <id>5</id>
+    <nome>Rodion</nome>
+    <cognome>Volontir</cognome>
+    <eta>30</eta>
     <stipendio>1500.0</stipendio>
   </dipendente>
   <dipendente>
-    <nome>Luca</nome>
-    <cognome>Bianchi</cognome>
-    <id>40</id>
-    <eta>2</eta>
+    <id>6</id>
+    <nome>Gianluca</nome>
+    <cognome>Balboni</cognome>
+    <eta>40</eta>
     <stipendio>2000.0</stipendio>
   </dipendente>
 </dipendenti>

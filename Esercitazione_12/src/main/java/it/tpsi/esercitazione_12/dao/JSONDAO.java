@@ -6,16 +6,24 @@ package it.tpsi.esercitazione_12.dao;
 
 /**
  *
+ * DAO che gestisce la lettura e scrittura dei dipendenti
+ * in formato JSON e utilizza la libreria Gson.
+ * 
  * @author Johnly
  */
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import it.tpsi.esercitazione_12.model.Dipendente;
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import it.tpsi.esercitazione_12.model.Dipendente;
 
 public class JSONDAO implements IDipendenteDAO{
     private static final String FILE = "src/main/resources/dipendenti.json";

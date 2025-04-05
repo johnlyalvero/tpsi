@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"it.tpsi.esercitazione_12"},{"l":"it.tpsi.esercitazione_12.dao"},{"l":"it.tpsi.esercitazione_12.model"}];updateSearchResults();
