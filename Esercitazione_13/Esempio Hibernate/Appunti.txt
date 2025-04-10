@@ -1,0 +1,26 @@
+use miodb;
+
+CREATE TABLE utenti (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    cognome VARCHAR(50) NOT NULL
+);
+
+HibernateExample/
+|-- pom.xml
+|-- src/
+    |-- main/
+        |-- java/
+            |-- it/
+                |-- example/
+                    |-- Utente.java
+                    |-- Main.java
+.....................................
+        |-- resources/
+            |-- hibernate.cfg.xml
+
+mvn clean compile
+mvn clean package
+java -jar target/HibernateExample-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+
