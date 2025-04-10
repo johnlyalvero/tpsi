@@ -19,36 +19,36 @@ public class JdbcExample {
             Class.forName("com.mysql.jdbc.Driver");
 
             // Open a connection to the database
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/miodb", "root", "R11Tmysql!");
+            conn = DriverManager.getConnection("jdbc:mysql://172.16.55.59:3306/enoteca", "root", "R11Tmysql!");
 
             // Execute a query
             stmt = conn.createStatement();
-            rs = stmt.executeQuery("SELECT * FROM tabella");
+            rs = stmt.executeQuery("SELECT * FROM vini");
 
             // Iterate over the result set
             while (rs.next()) {
                 // Access columns by name
                 int id = rs.getInt("id");
-                String descrizione = rs.getString("descrizione");
+                String nome_vino = rs.getString("Nome_Vino");
+                int annata = rs.getInt("Annata");
+                double prezzo = rs.getDouble("Prezzo");
+                
                 // Do something with the data
-                System.out.println("ID:" + id + " Descrizione:" + descrizione);
+                System.err.println("+----+----------------+------+--------+");
+                System.err.println("| ID | Nome Vino      | Annata| Prezzo |");
+                System.err.println("+----+----------------+------+--------+");
+                for(int i = 1; i <= rs.getMetaData().getColumnCount(); i++) {
+                    System.err.printf("| %2d | %-14s | %4d | %6.2f |\n", id, nome_vino, annata, prezzo);
+                }
+                System.err.println("+----+----------------+------+--------+");
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         } finally {
             // Close the resources
-            try {
-                rs.close();
-            } catch (Exception e) {
-            }
-            try {
-                stmt.close();
-            } catch (Exception e) {
-            }
-            try {
-                conn.close();
-            } catch (Exception e) {
-            }
+            try { rs.close(); } catch (Exception e) { }
+            try { stmt.close(); } catch (Exception e) { }
+            try { conn.close(); } catch (Exception e) { }
         }
     }
 }

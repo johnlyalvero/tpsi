@@ -1,1 +1,1 @@
-[{"nome":"Daniele","cognome":"Ferri","id":3,"eta":30,"stipendio":1500.0},{"nome":"Mattia","cognome":"Cau","id":4,"eta":40,"stipendio":2000.0}]
+[{"id":3,"nome":"Daniele","cognome":"Ferri","eta":30,"stipendio":1500.0},{"id":4,"nome":"Mattia","cognome":"Cau","eta":40,"stipendio":2000.0}]
